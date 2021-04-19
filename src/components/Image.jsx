@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 const Image = (props) => {
 
-    const {largeImageUrl, likes, previewURL, tags, views } = props.image;
+    const {webformatURL, likes, previewURL, tags, views } = props.image;
     
     return ( 
         <Fragment>
@@ -13,7 +13,8 @@ const Image = (props) => {
                         <p className='card-text'>{likes} Me gusta</p>
                         <p className='card-text'>{views} Vistas</p>
 
-                        <a href={largeImageUrl} className='btn btn-primary btn block'>Ver Imagen</a>
+                        <a target='_blank' rel='noreferrer' href={webformatURL}
+                           className='btn btn-primary btn block'>Ver Imagen</a>
                     </div>
                 </div>
             </div>
