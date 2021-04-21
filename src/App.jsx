@@ -13,8 +13,8 @@ class App extends Component {
   consultarApi = () => {
     const termino = this.state.termino;
     const pagina = this.state.pagina;
-    const Url = `https://pixabay.com/api/?key=21162331-7dc994497749a6de9aa622e41&q=${termino}&per_page=10&page=${pagina}`;
-     console.log(Url);
+    const Url = `https://pixabay.com/api/?key=21162331-7dc994497749a6de9aa622e41&q=${termino}&per_page=9&page=${pagina}`;
+    // console.log(Url);
     fetch(Url)
       .then(Res => Res.json())
       .then(Result => this.setState({imagenes: Result.hits}))

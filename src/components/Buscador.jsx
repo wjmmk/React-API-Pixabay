@@ -6,7 +6,7 @@ class Buscador extends Component {
 
     obtenerDatos = (e) => {
         e.preventDefault();
-        console.log(this.busquedaRef.current.value)
+        //console.log(this.busquedaRef.current.value)
         // Esta linea Obtiene el Valor de un Objeto Ref y lo asigna a una variable
         const ObjetoAConsultar = this.busquedaRef.current.value;
         // Esta linea le pasa el valor obtenidode Ref en el formulario al Componente padre por medio de los Props.
