@@ -10,6 +10,7 @@ const Image = (props) => {
                 <div className='card'>
                     <img src={previewURL} alt={tags} className='card-img-top'/>
                     <div className='card-body'>
+                        <p className='card-text'>{tags}</p>
                         <p className='card-text'>{likes} Me gusta</p>
                         <p className='card-text'>{views} Vistas</p>
 
