@@ -8,7 +8,7 @@ Run `yarn start` for a dev server. Navigate to `http://localhost:3000`. The app 
 
 ## Carga de Imagen de las Pruebas de Codigo
 
-![](public/Pixabay.jpg)
+![](public/Coders.jpg)
 
 ## Carga de Imagen de las Pruebas de Codigo II
 
