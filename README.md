@@ -12,8 +12,6 @@ Run `yarn start` for a dev server. Navigate to `http://localhost:3000`. The app 
 
 ## Carga de Imagen de las Pruebas de Codigo II
 
-![](public/dev.jpg)
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
